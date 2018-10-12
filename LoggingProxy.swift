@@ -10,6 +10,7 @@ import Willow
 
 var logger = LoggingProxy(logger: willow_logger)
 
+// swiftformat:disable redundantSelf
 struct LoggingProxy {
 
     var proxLogger: Logger?
